@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdas Construction</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Icon Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+
+     
+        <section class="header">
+            <nav>
+                <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                   <i class="bi bi-x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SHOP</a></li>
+                        <li><a href="">WOOD BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                    <i class="bi bi-list"  onclick="showMenu()"></i>
+
+                     <div class="text-box">
+                        <h1>Let us CRAFT your dreams into REALITY</h1>
+                        <p>
+                            Liveliwood Collection, exquisitely crafted fine furnitures and custom designs. <br> Our products are handmade with meticulous attention to details.<br> We turn our passion for wood into purposeful designs.
+                        
+                        </p>
+                        <a class="visit-btn">Visit Us to Know More</a>
+                    </div>
+            </nav>
+        </section>
+         
+            <!-- Main / Article -->
+       
+            <main class="main">
+               
+                <section class="section1"><br>
+                    <h3>Product Design</h3>
+                    <article class="article">
+                        <div>
+                            <img src="images/wood.jpg " alt="" width="100%" height="350px">
+                            <h3>Personalized Clock</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae omnis architecto harum, sit id libero quos.</p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                        <div>
+                            <img src="images/wood2.jpg" alt="" width="100%" height="350px">
+                            <h3>Handmade Wooden Tiles</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae omnis architecto harum, sit id libero quos.</p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                        <div>
+                            <img src="images/wood3.jpg" alt="" width="100%" height="350px">
+                            <h3>Wood Floring</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae omnis architecto harum, sit id libero quos.</p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            
+            <!-- Article 2 -->
+
+            <div class="article2bg">
+                <section class="section2">
+                    <h1>Carving Techniques</h1>
+                    <article class="article2">
+                        <div>
+                            <img src="images/pic1.jpg " alt="" width="100%" height="350px">
+                            <h3>Wood Carving</h3>
+                            <p>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur Quis autem vel eum </p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                        <div>
+                            <img src="images/pic2.jpg" alt="" width="100%" height="350px">
+                            <h3>3D Wood Carving</h3>
+                            <p>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur Quis autem vel eum</p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                        <div>
+                            <img src="images/pic3.jpg" alt="" width="100%" height="350px">
+                            <h3>Machine Carving</h3>
+                            <p>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur Quis autem vel eum</p>
+                            <a href="index.html">Read More</a>
+                        </div>
+                    </article>
+                </section>
+
+                <footer class="footer">
+                    <div class="logos">
+                        <a href="index.html"><i class="bi bi-facebook"></i></a>
+                        <a href="index.html"><i class="bi bi-twitter"></i></a>
+                        <a href="index.html"><i class="bi bi-youtube"></i></a>
+                        <a href="index.html"><i class="bi bi-instagram"></i></a>
+                    </div>
+                    <span>Copyright © Liveliwood. All rights reserved</span>
+                </footer>
+            </div>
+
+
+    <!-- Javascrip for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+                                navLinks.style.right = "0";
+                            }
+        function hideMenu() {
+                                navLinks.style.right = "-200px";
+                            }
+    </script>
+
+
+</body>
+
+        
+
+</html>
